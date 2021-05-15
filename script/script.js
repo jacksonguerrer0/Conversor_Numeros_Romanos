@@ -1,8 +1,8 @@
 document.getElementById("resultados").style.display = "";
 function ConvertToRoman() {
-  var num = palindrome = document.getElementById("inputConversor").value;
-  var decimalValue = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
-  var romanNumeral = [
+  let num = palindrome = document.getElementById("inputConversor").value;
+  let decimalValue = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+  let romanNumeral = [
     "M",
     "CM",
     "D",
@@ -18,9 +18,9 @@ function ConvertToRoman() {
     "I"
   ];
 
-  var romanized = "";
+  let romanized = "";
 
-  for (var index = 0; index < decimalValue.length; index++) {
+  for (let index = 0; index < decimalValue.length; index++) {
     while (decimalValue[index] <= num) {
       romanized += romanNumeral[index];
       num -= decimalValue[index];

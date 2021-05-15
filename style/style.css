@@ -10,10 +10,10 @@ body {
     background-color: whitesmoke;
     max-width: 500px;
     width: 100%;
-    margin: 10% auto;
+    margin: 5% auto;
     text-align: center;
     border-radius: 5%;
-    border: 1px solid black;
+    border: 10px double rgb(182, 182, 182);
 }
 #conversor {
     width: 100%;
@@ -42,6 +42,13 @@ button{
 }
 button:hover{
     background-color: rgb(60, 238, 128);
+}
+#conversor img {
+    border: 5px solid rgb(182, 182, 182);
+    width: 30%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+
 }
 #conversor h2, h1, button{
     margin-bottom: 20px;
